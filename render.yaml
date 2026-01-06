@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: air-travel-db
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 8080
+
