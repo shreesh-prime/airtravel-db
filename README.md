@@ -75,12 +75,7 @@ The application uses the following C++ data structures:
 - **Vectors** for storing collections
 - **Ordered structures** for sorted reports
 
-## Next Steps
 
-1. Install dependencies
-2. Build the project
-3. Test locally on port 8080
-4. Deploy externally (fly.io, Heroku, etc.)
 
 
 
