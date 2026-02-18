@@ -6,12 +6,6 @@ A C++ web application front-end for the OpenFlights Air Travel Database.
 
 This project implements a web-based front-end for querying airline, airport, and route data from the OpenFlights database. The application is built using C++ and serves data via HTTP endpoints.
 
-## Requirements
-
-- C++17 or later
-- A C++ HTTP server library (cpp-httplib recommended)
-- CMake 3.10+ (for building)
-
 ## Data Files
 
 The following data files should be in the project root:
@@ -19,14 +13,6 @@ The following data files should be in the project root:
 - `airports.dat` - Airport data  
 - `routes.dat` - Route data
 
-## Building the Project
-
-```bash
-mkdir build
-cd build
-cmake ..
-make
-```
 
 ## Running the Application
 
