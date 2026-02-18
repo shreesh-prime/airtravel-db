@@ -30,11 +30,7 @@ make
 
 ## Running the Application
 
-```bash
-./air_travel_db
-```
-
-The server will start on port 8080. Access it at: http://localhost:8080
+Access it at: http:shreeshs-air-travel-db.onrender.com/
 
 ## API Endpoints
 
